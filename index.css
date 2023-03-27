@@ -95,14 +95,35 @@ nav a{
     background-color:#FF764E;
     margin-left: 10%;
 }
+.orange{
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .orange:hover {
+    transform: scale(1.1);
+  }
 .blue{
     background-color: #5ED3EB;
     margin:0 24%;
 }
+.blue{
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blue:hover {
+    transform: scale(1.1);
+  }
 .yellow{
     background-color:#FFCD69;
     margin-right: 10%;
 }
+.yellow{
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .yellow:hover {
+    transform: scale(1.1);
+  }
 
 /*title section*/
 .cta{
@@ -130,7 +151,8 @@ nav a{
 .main{
     background-color:#DDB9A3;
     color:white;
-    padding:2%;
+    padding:4%;
+    text-align: middle;
 }
 .info div{
     width:30%;
